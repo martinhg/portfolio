@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+#header-section {
+    height: 40vw;
+
+    .title {
+        font-family: 'PT Serif', serif;
+        font-size: 71px;
+
+        .name-color {
+            color: #df5646;
+        }
+    }
+
+    .job-title {
+        font-size: 29px;
+        font-weight: 500;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #78add9;
+    }
+
+    .phrase {
+        color: grey;
+    }
+}

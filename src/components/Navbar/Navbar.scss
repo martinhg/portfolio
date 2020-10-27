@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #fff;
+    a {
+        color: #000;
+    }
+    a > img {
+        height: 40px;
+        margin: 0 40px
+    }
+
+    .nav-item {
+        color: #000;
+        font-weight: bold;
+        font-size: 18px;
+
+        .active {
+            color: #df5646;
+        }
+
+        &:hover {
+            color: #df5646;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+    }    
+
+    .social-media-icons {
+        font-size: 30px;
+    }
+}
+

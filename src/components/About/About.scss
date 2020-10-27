@@ -1,0 +1,22 @@
+.about {
+    background: linear-gradient(
+        308deg,
+        rgba(0, 0, 0, 0) 900px,
+        rgba(0, 0, 0, 0) 200px,
+        #DF6C4F 900px,
+        #DF6C4F 900px
+      );
+
+    &_title {
+        padding: 20px 0;
+        color:  #78add9;
+        font-size: 100px;
+    }
+
+    &_avatar {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 7px solid #78add9;
+    }
+}
