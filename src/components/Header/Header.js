@@ -6,17 +6,17 @@ import './Header.scss';
 
 const Header = () => {
     return (
-        <section className="container" id="header-section">
-            <div className="row">
-                <div className="col-7 align-self-center">
-                    <h1 className="title">Hi, <br/>
-                        I'm <span className="name-color">Martin Herrera</span>
+        <section className="container header" id="header-section">
+            <div className="row align-items-center">
+                <div className="col-12 col-md-7 mb-4">
+                    <h1 className="header_title">Hi, <br/>
+                        I'm <span className="header_title--name">Martin Herrera</span>
                     </h1>
-                    <h2 className="job-title">Fullstack Developer</h2>
-                    <i className="phrase">"Programming gives me the freedom to create and do whatever I imagine"</i>
+                    <h2 className="header_job-title">Fullstack Developer</h2>
+                    <i className="header_phrase">"Programming gives me the freedom to create and do whatever I imagine"</i>
                 </div>
-                <div className="col-5">
-                    <img src={ Programmer } alt="Programmer"/>
+                <div className="col-12 col-md-5">
+                    <img className="header_img mx-auto d-block" src={ Programmer } alt="Programmer"/>
                 </div>
             </div>
         </section>

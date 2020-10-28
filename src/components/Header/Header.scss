@@ -1,26 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-#header-section {
-    height: 40vw;
+.header {
+    // padding: 0 40px;
 
-    .title {
+    &_title {
         font-family: 'PT Serif', serif;
-        font-size: 71px;
+        font-size: 30px;
+        text-align: left;
 
-        .name-color {
+        &--name {
             color: #df5646;
         }
     }
 
-    .job-title {
-        font-size: 29px;
+    &_job-title {
+        font-size: 18px;
         font-weight: 500;
         font-family: 'Noto Sans JP', sans-serif;
         color: #78add9;
     }
 
-    .phrase {
+    &_phrase {
+        font-size: 10px;
         color: grey;
+        justify-content: left;;
+    }
+
+    &_img {
+        height: 180px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        &_title {
+            font-size: 45px;
+        }
+
+        &_job-title {
+            font-size: 25px;
+        }
+
+        &_phrase {
+            font-size: 13px;
+        }
+
+        &_img {
+            height: 300px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .header {
+        &_title {
+            font-size: 63px;
+        }
+
+        &_job-title {
+            font-size: 35px;
+        }
+
+        &_phrase {
+            font-size: 17px;
+        }
+
+        &_img {
+            height: 410px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        &_title {
+            font-size: 73px;
+        }
+
+        &_img {
+            height: 530px;
+        }
     }
 }

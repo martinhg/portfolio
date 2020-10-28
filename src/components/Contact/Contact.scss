@@ -1,5 +1,22 @@
 .contact {
     .img-side {
         background-color:  #df5646;
+        border-radius: 50%;
+        height: auto;
+        width: 10px;
+
+        .send-mail-img {
+            height: 200px;
+        }
+    }
+
+    &_title {
+        color:  #78add9;
+        font-size: 100px;
+        padding-left: 20px;
+    }
+
+    textarea {
+        height: 150px;
     }
 }
